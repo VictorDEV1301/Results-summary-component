@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url(./../fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-size: 62.5;
+    font-family: HankenGrotesk;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 500px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-left {
+    width: 100%;
+    max-width: 350px;
+    min-height: 500px;
+    background-image: linear-gradient(#6743ff, #312cea);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-left h2 {
+    font-weight: normal;
+}
+
+.container-left-midle {
+    min-width: 175px;
+    min-height: 175px;
+    border-radius: 50%;
+    background-image: linear-gradient(#312cea, #6743ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-left-midle h1{
+    font-size: 4rem;
+}
+
+.container-right {
+    width: 100%;
+    max-width: 350px;
+    min-height: 500px;
+    border-radius: 25px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-right h1{
+    min-width: 300px
+}
+
+.container-right-container-card{
+    min-width: 300px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.container-right-container-card p{
+    display: flex;
+    align-items: center;
+}
+
+.container-right-container-card p img{
+    margin-right: 10px;
+}
+
+.container-right-container-card span{
+    color: black;
+}
+
+.container-right button{
+    width: 90%;
+    background-color: #303b59;
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.container-right button:hover{
+    background-image: linear-gradient(#312cea, #6743ff);
+}
